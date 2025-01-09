@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body> 
+</div>
+    <section>
+        <div class="home">
+            <h1>Welcome to <span>Expandaa</span></h1>
+        <p>All source links-apps-and more</p>
+        <a class="btn" href="#projects">Let's Goo </a>
+
+<div class="container_mouse" >
+    <a href="#projects"><span class="mouse-btn" >
+        <span class="mouse-scroll"></span>
+    </span>
+</a>
+</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="projects" id="projects">
+          <div class="header">My Projects</div>
+          <div id="cards-container">
+            <!-- Card 1 -->
+            <div class="card">
+              <img class="imgcard" src="imgs/desk setup.jpg" alt="Desk Setup">
+              <div class="content">
+                <h3>Project 1</h3>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JS</span>
+                </div>
+                <a href="#" class="btn2">View</a>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+              <img class="imgcard" src="imgs/desk setup.jpg" alt="Desk Setup">
+              <div class="content">
+                <h3>Project 2</h3>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JS</span>
+                </div>
+                <a href="#" class="btn2">View</a>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+              <img class="imgcard" src="imgs/desk setup.jpg" alt="Desk Setup">
+              <div class="content">
+                <h3>Project 3</h3>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JS</span>
+                </div>
+                <a href="#" class="btn2">View</a>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+              <img class="imgcard" src="imgs/desk setup.jpg" alt="Desk Setup">
+              <div class="content">
+                <h3>Project 3</h3>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JS</span>
+                </div>
+                <a href="#" class="btn2">View</a>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+              <img class="imgcard" src="imgs/desk setup.jpg" alt="Desk Setup">
+              <div class="content">
+                <h3>Project 3</h3>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JS</span>
+                </div>
+                <a href="#" class="btn2">View</a>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+              <img class="imgcard" src="imgs/desk setup.jpg" alt="Desk Setup">
+              <div class="content">
+                <h3>Project 3</h3>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JS</span>
+                </div>
+                <a href="#" class="btn2">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="pyramid-loader">
+        <div class="wrapper">
+          <span class="side side1"></span>
+          <span class="side side2"></span>
+          <span class="side side3"></span>
+          <span class="side side4"></span>
+          <span class="shadow"></span>
+        </div> 
+    </div>
+    
+      <script>
+        // إخفاء محتوى الصفحة في البداية
+        document.querySelector('section').style.display = 'none';
+        document.querySelectorAll('section')[1].style.display = 'none';
+    
+        // بعد 3 ثواني
+        setTimeout(() => {
+            // إخفاء الـloader
+            document.querySelector('.pyramid-loader').style.display = 'none';
+            // إظهار محتوى الصفحة
+            document.querySelector('section').style.display = 'block';
+            document.querySelectorAll('section')[1].style.display = 'block';
+        }, 3000);
+    </script>
+      
+</body>
+</html>
